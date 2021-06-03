@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+.navbar {
+  padding: 10px;
+  background-color: #ccad52;
+  text-align: center;
+  word-spacing: 50px;
+  margin: none;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  display: inline-block;
+  border: crimson solid;
+  border-radius: 15px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  width: 280px;
+  text-align: center;
+  font-size: 11px;
+ 
+}
+h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: brown;
+}
+html {
+  background-color: #f5e042;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+section.about{
+    margin:0px 30px;
+    text-align: center;
+}
+hr{
+    background-color: brown;
+}
+h2.sh2{
+    text-align:left;
+}
+ul.sh3{
+   margin-left: 200px;
+   text-align: right;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+  
+}
+h2.sh3{
+    text-align: right;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+form{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+section.sh3{
+text-align: center;
+background-color: #1c1c1a;
+background-image:url(./mac-wallpaper.jpg);
+}
+a:hover{
+  color: #d87e29;
+}
+p:hover{
+  background-color: rgb(255, 255, 158);
+  border-radius:0px;
+  border-color: teal solid;
+}
+h2:hover{
+  color:tomato;
+}
