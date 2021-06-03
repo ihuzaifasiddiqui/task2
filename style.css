@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 .navbar {
-  padding: 10px;
+  padding: 15px;
   background-color: #ccad52;
   text-align: center;
   word-spacing: 50px;
   margin: none;
   font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+}
+a{
+  font-size: 20px;
 }
 p {
   display: inline-block;
@@ -14,15 +18,16 @@ p {
   border-radius: 15px;
   padding: 10px;
   font-family: 'Open Sans', sans-serif;
-  width: 280px;
+  width: 400px;
   text-align: center;
-  font-size: 11px;
+  font-size: 20px;
  
 }
 h2 {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   color: brown;
+  font-size: 40px;
 }
 html {
   background-color: #f5e042;
@@ -34,6 +39,7 @@ a {
 section.about{
     margin:0px 30px;
     text-align: center;
+    align-items: center;
 }
 hr{
     background-color: brown;
@@ -42,11 +48,10 @@ h2.sh2{
     text-align:left;
 }
 ul.sh3{
-   margin-left: 200px;
+   margin-left: 500px;
    text-align: right;
-   text-decoration: none;
    font-family: 'Poppins', sans-serif;
-  
+   
 }
 h2.sh3{
     text-align: right;
@@ -55,16 +60,14 @@ ul{
     display: inline-block;
     list-style: none;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 form{
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  font-size: 20px;
 }
-section.sh3{
-text-align: center;
-background-color: #1c1c1a;
-background-image:url(./mac-wallpaper.jpg);
-}
+
 a:hover{
   color: #d87e29;
 }
@@ -75,4 +78,18 @@ p:hover{
 }
 h2:hover{
   color:tomato;
+}
+p.para2{
+  margin-left: 30px;
+}
+form input{
+  width: 280px;
+  height: 30px;
+  border-radius: 10px;
+  border: brown solid 3px ;
+}
+textarea{
+  width: 280px;
+  border-radius: 10px;
+  border: brown solid 3px ;
 }
